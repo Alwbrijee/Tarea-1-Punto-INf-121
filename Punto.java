@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 class Punto {
-    private double x;
-    private double y;
+    private float x;
+    private float y;
     private static final Punto G = new Punto(0, 0);
 
     Punto(double x, double y) {
